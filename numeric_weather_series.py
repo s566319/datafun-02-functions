@@ -77,10 +77,10 @@ if __name__ == "__main__":
     # The constructor method is always the name of the class
     # pass in the information required by the __init__ method defined in the class
 
-    name1 = "Monday Temperatures"
+    name1 = "Sunday Temperatures"
     units1 = "F"
     data1 = [55.8, 63.4, 72.4, 78, 76.3]
-    loc = "Maryville MO"
+    loc = "Wichita, KS"
 
     object1 = NumericWeatherSeries(name1, units1, data1, loc)
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     name2 = "Tuesday Temperatures"
     units2 = "F"
     data2 = [66.2, 67.2, 55.8, 63.4, 72.4, 73.1, 76.3]
-    loc2 = "Maryville MO"
+    loc2 = "Wichita KS"
 
     object2 = NumericWeatherSeries(name2, units2, data2, loc2)
 

@@ -120,6 +120,6 @@ if __name__ == "__main__":
     bad_list = [-5, 0, math.inf, '30']
     get_circle_areas_given_list(bad_list)
 
-    print("Done. Please check the log file for more details.")
+    print("Done. Please check the log file for more details. These details might be helpful in resolving your next puzzle.")
 
 

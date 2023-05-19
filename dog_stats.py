@@ -13,7 +13,7 @@ import webbrowser
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
-print("Hello!, We'll ask for three temperatures in Celcius.")
+print("Hello!, We'll ask for four temperatures in Celcius.")
 print()
 
 temp_string_1 = input("Provide a temperature in Celcius: ")
@@ -22,30 +22,34 @@ temp_string_2 = input("Provide a temperature in Celcius: ")
 print()
 temp_string_3 = input("Provide a temperature in Celcius: ")
 print()
+temp_string_4 = input("Provide a temperature in Celcius: ")
+print()
 
 # convert strings to numbers
 temp_1 = float(temp_string_1)
 temp_2 = float(temp_string_2)
 temp_3 = float(temp_string_3)
+temp_4 = float(temp_string_3)
 
 logger.info(f"temp_1 = {temp_1}")
 logger.info(f"temp_2 = {temp_2}")
 logger.info(f"temp_3 = {temp_3}")
+logger.info(f"temp_4 = {temp_4}")
 
 # find the sum
-sum = temp_1 + temp_2 + temp_3
+sum = temp_1 + temp_2 + temp_3 + temp_4
 
 # find the average - round to 2 decimal places 
-average = round( sum / 3, 2)
+average = round( sum / 4, 2)
 
 # find the product
-product = temp_1 * temp_2 * temp_3
+product = temp_1 * temp_2 * temp_3 * temp_4
 
 # find the smallest
-smallest = min(temp_1, temp_2, temp_3)
+smallest = min(temp_1, temp_2, temp_3, temp_4)
 
 # find the largest
-largest = max(temp_1, temp_2, temp_3)
+largest = max(temp_1, temp_2, temp_3, temp_4)
 
 # find the range
 range = largest - smallest
@@ -62,12 +66,13 @@ logger.info(f"The range is {range}.")
 
 utterance1 = "It's below freezing at the Doggy Daycare!"
 utterance2 = "It's freezing at the Doggy Daycare!"
-utterance3 = "It's above freezing at the Doggy Daycare!"  
+utterance3 = "It's above freezing at the Doggy Daycare!" 
+utterance4 = "Doggy daycare is closed because its too cold" 
 temp_freezing = 0
 
-if temp_3 < temp_freezing:
+if temp_4 < temp_freezing:
     logger.info(utterance1)
-elif temp_3 == temp_freezing:
+elif temp_4 == temp_freezing:
     logger.info(utterance2)
 else:
     logger.info(utterance3)
