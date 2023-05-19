@@ -1,0 +1,24 @@
+2023-05-19 12:14:21,054 =============================================================
+2023-05-19 12:14:21,055 =============================================================
+2023-05-19 12:14:21,055 Today is 2023-05-19 at 12:14 PM
+2023-05-19 12:14:21,055 This file is running on: posix Darwin 21.6.0
+2023-05-19 12:14:21,055 The Python version is: 3.9.6
+2023-05-19 12:14:21,055 The active conda environment is:  None
+2023-05-19 12:14:21,055 The active pip environment is:    None
+2023-05-19 12:14:21,055 The active environment path is:   /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9
+2023-05-19 12:14:21,056 The current working directory is: /Users/Inga/Documents/datafun-02-functions
+2023-05-19 12:14:21,056 This source file is in:           /Users/Inga/Documents/datafun-02-functions
+2023-05-19 12:14:21,056 =============================================================
+2023-05-19 12:14:21,056 =============================================================
+2023-05-19 12:14:21,056 Explore some functions in the math module
+2023-05-19 12:14:21,056 math.comb(5,1) = 5
+2023-05-19 12:14:21,056 math.perm(5,1) = 5
+2023-05-19 12:14:21,056 Explore some functions in the math module
+2023-05-19 12:14:21,057 math.comb(5,1) = 5
+2023-05-19 12:14:21,057 math.perm(5,1) = 5
+2023-05-19 12:14:21,057 math.comb(5,3) = 10
+2023-05-19 12:14:21,058 math.perm(5,3) = 60
+2023-05-19 12:14:21,058 math.pi = 3.141592653589793
+2023-05-19 12:14:21,058 math.degrees(2 * math.pi) = 360.0
+2023-05-19 12:14:21,059 math.radians(180)         = 3.141592653589793
+2023-05-19 12:14:21,059 
