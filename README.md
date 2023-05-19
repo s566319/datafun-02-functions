@@ -11,12 +11,12 @@ See those projects for additional help with tasks below.
 
 ## Task 1 - Fork this Repo
 
-Fork this repo into your GitHub account.
+I did that.
 
 ## Task 2 - Clone Your Repo 
 
-Clone your new repo down to your machine.
+I did that.
 
 ## Task 3 - Open the Project Locally
 
-Open the project in VS Code. 
+I think I have done it all? 
